@@ -1,0 +1,18 @@
+[2023-10-30 16:35:35.892795] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2023-10-30 16:35:35.892795] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2023-10-30 16:35:35.893793] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 16:35:35.894766] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2023-10-30 16:35:35.894766] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python学习\\jiekou-python3-master\\jiekou-python3-master\\test_case_data\\case.xls',)
+[2023-10-30 16:35:35.895761] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 16:35:35.907756] INFO: interface_case_run: 测试用例开始执行
+[2023-10-30 16:35:35.908725] INFO: interface_case_run: {'key': 'aaaa', 'info': {'password': '1222'}}
+[2023-10-30 16:35:35.909750] INFO: interface_case_run: 输入参数：url:/openapi/api,key:aaaa,参数:code=40001,请求方式：POST
+[2023-10-30 16:35:35.909750] INFO: interface_case_run: 输入参数：url:/openapi/api,key:aaaa,参数:code=40001,请求方式：None
+[2023-10-30 16:35:36.016118] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2023-10-30 16:35:36.016118] INFO: interface_case_run: 测试用例执行完毕
+[2023-10-30 16:35:36.017142] INFO: interface_case_run: 测试用例开始执行
+[2023-10-30 16:35:36.017142] INFO: interface_case_run: {'key': 'dfeb1cc8125943d29764a2f2f5c33739', 'info': {'password': '1222'}}
+[2023-10-30 16:35:36.018144] INFO: interface_case_run: 输入参数：url:/openapi/api,key:dfeb1cc8125943d29764a2f2f5c33739,参数:code=40002,请求方式：POST
+[2023-10-30 16:35:36.018144] INFO: interface_case_run: 输入参数：url:/openapi/api,key:dfeb1cc8125943d29764a2f2f5c33739,参数:code=40002,请求方式：None
+[2023-10-30 16:35:36.116315] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'code': 40007, 'text': '您的请求内容为空。'}}
+[2023-10-30 16:35:36.117340] INFO: interface_case_run: 测试用例执行完毕

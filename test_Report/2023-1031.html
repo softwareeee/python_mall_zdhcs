@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>报告</title>
+    <meta name="generator" content="BSTestRunner 0.8.4"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" ">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+    
+<style type="text/css" media="screen">
+
+/* -- css div popup ------------------------------------------------------------------------ */
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #99CCFF;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 10pt;
+    width: 1200px;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+
+#show_detail_line .label {
+    font-size: 85%;
+    cursor: pointer;
+}
+
+#show_detail_line {
+    margin: 2em auto 1em auto;
+}
+
+#total_row  { font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+</style>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+<body>
+<div class="container">
+    
+ <div class='heading'>
+     <div style='width: 50%;float:left;margin-top:inherit'>
+<h1>报告</h1>
+<p><strong>开始时间:</strong> 2023-10-31 11:13:20</p>
+<p><strong>持续时间:</strong> 0:00:00.347819</p>
+<p><strong>状态:</strong> <span class="text text-danger">失败 <strong>1</strong></span> <span class="text text-warning">错误 <strong>1</strong></span></p>
+
+<p class='description'>测试报告</p>
+</div> 
+
+<div id='container2' style='width:50%;float:left;margin-top:20px;height:200px;'>
+    </div>
+</div >
+<div id='containerchart' style='height: 300px;margin-top: 20%;'></div>
+    
+    
+<p id='show_detail_line'>
+<span class="label label-primary" onclick="showCase(0)">公用</span>
+<span class="label label-danger" onclick="showCase(1)">失败</span>
+<span class="label label-default" onclick="showCase(2)">所有</span>
+</p>
+<table id='result_table' class="table">
+    <thead>
+        <tr id='header_row'>
+            <th>测试组/测试用例</td>
+            <th>数量</td>
+            <th>通过</td>
+            <th>失败</td>
+            <th>错误</td>
+            <th>查看</td>
+        </tr>
+    </thead>
+    <tbody>
+        
+<tr class='text text-warning'>
+    <td>testCase.ddt_case.MyTest</td>
+    <td>2</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',2)">详情</a></td>
+</tr>
+
+<tr id='ft1.1' class='none'>
+    <td class='text text-warning'><div class='testcase'>test_api_1: 1.处理参数</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: Traceback (most recent call last):
+  File "G:\python学习\jiekou-python3-master\venv\Lib\site-packages\ddt.py", line 220, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\python学习\jiekou-python3-master\jiekou-python3-master\testCase\ddt_case.py", line 86, in test_api
+    assertall = assertre(data_test['assert'])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\python学习\jiekou-python3-master\jiekou-python3-master\Public\log.py", line 43, in _wrap
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\python学习\jiekou-python3-master\jiekou-python3-master\Public\panduan.py", line 32, in assertre
+    raise {"code": 1, 'result': '填写测试预期值'}
+TypeError: exceptions must derive from BaseException
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='text text-danger'><div class='testcase'>test_api_2: 1.处理参数</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        失败</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: Traceback (most recent call last):
+  File "G:\python学习\jiekou-python3-master\venv\Lib\site-packages\ddt.py", line 220, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\python学习\jiekou-python3-master\jiekou-python3-master\testCase\ddt_case.py", line 87, in test_api
+    self.assertEqual(dict(assertall),dict(apijson), msg='预期和返回不一致')
+AssertionError: {'uid': '2'} != {'code': 1, 'result': '接口请求失败，返回状态码：400'}
+- {'uid': '2'}
++ {'code': 1, 'result': '接口请求失败，返回状态码：400'} : 预期和返回不一致
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    </tbody>
+    <tfoot>
+        <tr id='total_row'>
+            <td>总计</td>
+            <td>2</td>
+            <td class="text text-success">0</td>
+            <td class="text text-danger">1</td>
+            <td class="text text-warning">1</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+
+    <div id='ending'>&nbsp;</div>
+</div>
+ 
+    <script language='javascript' type='text/javascript'>
+var dom = document.getElementById('containerchart');
+var myChart = echarts.init(dom);
+var domone = document.getElementById('container2');
+var myChartone = echarts.init(domone);
+var optionsone;
+optionsone = {
+    title: {
+        text: '历史记录'
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        data: ['成功', '失败','错误']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['2023_10_23_15_52_54', '2023_10_23_15_52_58', '2023_10_23_15_53_01', '2023_10_23_15_53_04', '2023_10_23_15_57_45', '2023_10_23_16_14_37', '2023_10_23_16_15_20', '2023_10_23_16_21_52', '2023_10_23_16_22_22', '2023_10_23_16_22_35', '2023_10_23_16_22_54', '2023_10_23_16_24_12', '2023_10_23_16_25_23', '2023_10_23_16_26_19', '2023_10_23_16_26_34', '2023_10_23_16_39_34', '2023_10_23_16_40_09', '2023_10_23_16_40_35', '2023_10_23_16_40_54', '2023_10_23_16_55_41', '2023_10_23_16_57_34', '2023_10_23_16_59_15', '2023_10_23_17_03_29', '2023_10_23_17_04_34', '2023_10_23_17_05_39', '2023_10_23_17_12_56', '2023_10_23_17_19_04', '2023_10_23_17_23_05', '2023_10_23_18_10_30', '2023_10_23_18_10_52', '2023_10_23_18_16_30', '2023_10_23_18_17_26', '2023_10_23_18_22_17', '2023_10_23_18_26_28', '2023_10_30_15_08_09', '2023_10_30_15_12_20', '2023_10_30_15_14_39', '2023_10_30_15_29_13', '2023_10_30_15_34_28', '2023_10_30_15_35_38', '2023_10_30_15_36_45', '2023_10_30_15_36_50', '2023_10_30_15_37_18', '2023_10_30_15_40_23', '2023_10_30_15_41_04', '2023_10_30_15_41_21', '2023_10_30_15_42_35', '2023_10_30_15_42_55', '2023_10_30_15_51_24', '2023_10_30_15_52_55', '2023_10_30_15_53_23', '2023_10_30_15_53_36', '2023_10_30_16_03_42', '2023_10_30_16_04_55', '2023_10_30_16_10_10', '2023_10_30_16_33_28', '2023_10_30_16_34_39', '2023_10_30_16_35_36', '2023_10_30_17_16_46', '2023_10_30_17_43_02', '2023_10_30_17_43_39', '2023_10_30_17_45_48', '2023_10_30_17_47_07', '2023_10_30_17_47_24', '2023_10_30_17_48_15', '2023_10_30_17_48_34', '2023_10_30_17_48_52', '2023_10_30_17_49_30', '2023_10_30_17_50_17', '2023_10_30_17_51_42', '2023_10_30_17_52_30', '2023_10_30_17_54_41', '2023_10_30_18_05_21', '2023_10_30_18_05_53', '2023_10_30_18_06_18', '2023_10_30_18_11_19', '2023_10_30_18_16_03', '2023_10_30_18_18_22', '2023_10_30_18_21_28', '2023_10_30_18_24_37', '2023_10_30_18_26_26', '2023_10_31_09_35_19', '2023_10_31_11_06_05', '2023_10_31_11_13_21']
+    },
+    yAxis: {
+        type: 'value'
+    },
+    series: [
+        {
+            name: '成功',
+            type: 'line',
+            stack: '总量',
+            data: ['2', '2', '2', '2', '2', '2', '2', '0', '0', '0', '0', '0', '0', '0', '0', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '1', '1', '1', '1', '1', '1', '1', '2', '2', '2', '2', '2', '2', '2', '2', '0', '0', '0', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0', '0', '0']
+        },
+        {
+            name: '失败',
+            type: 'line',
+            stack: '总量',
+            data: ['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '1']
+        },
+        {
+            name: '错误',
+            type: 'line',
+            stack: '总量',
+            data: ['0', '0', '0', '0', '0', '0', '0', '2', '2', '2', '2', '2', '2', '2', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '2', '2', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1']
+        }
+
+    ]
+};
+if (optionsone && typeof optionsone === 'object') {
+    myChartone.setOption(optionsone);
+}
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName('tr');
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+</script>
+</body>
+</html>
+    

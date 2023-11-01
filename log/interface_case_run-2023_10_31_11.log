@@ -1,0 +1,6 @@
+[2023-10-31 11:51:22.315614] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2023-10-31 11:51:22.316612] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2023-10-31 11:51:22.316612] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-31 11:51:22.317609] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2023-10-31 11:51:22.317609] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python学习\\jiekou-python3-master\\jiekou-python3-master\\test_case_data\\case.xls',)
+[2023-10-31 11:51:22.318606] INFO: interface_case_run: 全部kwargs参数信息 , {}

@@ -1,0 +1,55 @@
+[2023-10-30 18:26:26.101649] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2023-10-30 18:26:26.102618] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2023-10-30 18:26:26.102618] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 18:26:26.103616] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2023-10-30 18:26:26.104613] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python学习\\jiekou-python3-master\\jiekou-python3-master\\test_case_data\\case.xls',)
+[2023-10-30 18:26:26.104613] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 18:26:26.118577] INFO: interface_case_run: 测试用例开始执行
+[2023-10-30 18:26:26.119577] INFO: interface_case_run: {'key': 'aaaa', 'info': {'password': '1222'}}
+[2023-10-30 18:26:26.119577] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/openapi/api,key:aaaa,参数:{'password':'1222'},期望:,请求方式：POST
+[2023-10-30 18:26:26.198282] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：405'}
+[2023-10-30 18:26:26.200309] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-10-30 18:26:26.201306] INFO: interface_case_run: 全部args参数参数信息 , ('',)
+[2023-10-30 18:26:26.202303] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 18:26:26.204297] INFO: interface_case_run: 填写测试预期值
+[2023-10-30 18:26:26.208288] INFO: interface_case_run: 测试用例执行完毕
+[2023-10-30 18:26:26.209284] INFO: interface_case_run: 测试用例开始执行
+[2023-10-30 18:26:26.210281] INFO: interface_case_run: {'key': 'aaaa', 'info': {'password': '1222'}}
+[2023-10-30 18:26:26.212276] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/openapi/api,key:aaaa,参数:{'password':'1222'},期望:,请求方式：POST
+[2023-10-30 18:26:26.240297] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：405'}
+[2023-10-30 18:26:26.241296] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-10-30 18:26:26.242290] INFO: interface_case_run: 全部args参数参数信息 , ('',)
+[2023-10-30 18:26:26.242290] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 18:26:26.243288] INFO: interface_case_run: 填写测试预期值
+[2023-10-30 18:26:26.244285] INFO: interface_case_run: 测试用例执行完毕
+[2023-10-30 18:26:26.245282] INFO: interface_case_run: 测试用例开始执行
+[2023-10-30 18:26:26.246275] INFO: interface_case_run: {'key': 'aaaa', 'info': {'password': '1222'}}
+[2023-10-30 18:26:26.247246] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/openapi/api,key:aaaa,参数:{'password':'1222'},期望:,请求方式：POST
+[2023-10-30 18:26:26.274697] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：405'}
+[2023-10-30 18:26:26.275694] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-10-30 18:26:26.276693] INFO: interface_case_run: 全部args参数参数信息 , ('',)
+[2023-10-30 18:26:26.278687] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 18:26:26.279683] INFO: interface_case_run: 填写测试预期值
+[2023-10-30 18:26:26.281648] INFO: interface_case_run: 测试用例执行完毕
+[2023-10-30 18:26:26.283672] INFO: interface_case_run: 测试用例开始执行
+[2023-10-30 18:26:26.284670] INFO: interface_case_run: {'key': 'aaaa', 'info': {'password': '1222'}}
+[2023-10-30 18:26:26.285667] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/openapi/api,key:aaaa,参数:{'password':'1222'},期望:,请求方式：POST
+[2023-10-30 18:26:26.316937] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：405'}
+[2023-10-30 18:26:26.317970] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-10-30 18:26:26.319958] INFO: interface_case_run: 全部args参数参数信息 , ('',)
+[2023-10-30 18:26:26.321955] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 18:26:26.322919] INFO: interface_case_run: 填写测试预期值
+[2023-10-30 18:26:26.325910] INFO: interface_case_run: 测试用例执行完毕
+[2023-10-30 18:26:26.326908] INFO: interface_case_run: 测试用例开始执行
+[2023-10-30 18:26:26.328934] INFO: interface_case_run: {'key': '', 'info': {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}}
+[2023-10-30 18:26:26.330901] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  'username': 'admin',
+  'password': '1c63129ae9db9c60c3e8aa94d3e00495',
+  'vcode': '000000',
+  'ident': 'pj_6.0'
+},期望:uid=2,请求方式：POST
+[2023-10-30 18:26:26.365804] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：400'}
+[2023-10-30 18:26:26.366835] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-10-30 18:26:26.367829] INFO: interface_case_run: 全部args参数参数信息 , ('uid=2',)
+[2023-10-30 18:26:26.367829] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-10-30 18:26:26.368820] INFO: interface_case_run: 测试用例执行完毕
