@@ -1,0 +1,22 @@
+[2024-01-24 18:59:12.548074] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-24 18:59:12.549073] INFO: interface_case_run: 全部args参数参数信息 , ('case.xls',)
+[2024-01-24 18:59:12.549073] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-24 18:59:12.550068] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-24 18:59:12.550068] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2024-01-24 18:59:12.551066] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-24 18:59:12.986936] INFO: interface_case_run: 测试用例开始执行
+[2024-01-24 18:59:12.987924] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId':'&skuid',\n  'zoneTag': '',\n  'zoneId': '0',\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-24 18:59:12.989888] INFO: interface_case_run: 用例依赖执行失败：list index out of range
+[2024-01-24 18:59:12.993879] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-24 18:59:12.994875] INFO: interface_case_run: 测试用例开始执行
+[2024-01-24 18:59:12.995871] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId':'&skuid',\n  'zoneTag': '',\n  'zoneId': '0',\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-24 18:59:12.997866] INFO: interface_case_run: 用例依赖执行失败：list index out of range
+[2024-01-24 18:59:12.999861] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-24 18:59:13.000858] INFO: interface_case_run: 测试用例开始执行
+[2024-01-24 18:59:13.001855] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId':'&skuid',\n  'zoneTag': '',\n  'zoneId': '0',\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-24 18:59:13.003850] INFO: interface_case_run: 用例依赖执行失败：list index out of range
+[2024-01-24 18:59:13.005844] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-24 18:59:13.007840] INFO: interface_case_run: 测试用例开始执行
+[2024-01-24 18:59:13.008837] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId':'&skuid',\n  'zoneTag': '',\n  'zoneId': '0',\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-24 18:59:13.010832] INFO: interface_case_run: 用例依赖执行失败：list index out of range
+[2024-01-24 18:59:13.012855] INFO: interface_case_run: 测试用例执行完毕

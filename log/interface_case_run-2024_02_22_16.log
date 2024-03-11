@@ -1,0 +1,82 @@
+[2024-02-22 16:33:45.939191] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-22 16:33:45.940189] INFO: interface_case_run: 全部args参数参数信息 , ('加入隐形购物车.xls',)
+[2024-02-22 16:33:45.940189] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:45.941214] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-22 16:33:45.941214] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\加入隐形购物车.xls',)
+[2024-02-22 16:33:45.942182] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:45.953154] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-22 16:33:45.954150] INFO: interface_case_run: 全部args参数参数信息 , ('生成临时订单号.xls',)
+[2024-02-22 16:33:45.954150] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:45.955154] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-22 16:33:45.955154] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\生成临时订单号.xls',)
+[2024-02-22 16:33:45.956146] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:45.958170] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-22 16:33:45.959165] INFO: interface_case_run: 全部args参数参数信息 , ('金额计算.xls',)
+[2024-02-22 16:33:45.959165] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:45.960163] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-22 16:33:45.960163] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\金额计算.xls',)
+[2024-02-22 16:33:45.961160] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:45.964135] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-22 16:33:45.964135] INFO: interface_case_run: 全部args参数参数信息 , ('下单.xls',)
+[2024-02-22 16:33:45.965121] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:45.966119] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-22 16:33:45.966119] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\下单.xls',)
+[2024-02-22 16:33:45.967144] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:46.468428] INFO: interface_case_run: 测试用例开始执行
+[2024-02-22 16:33:46.472413] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId':'1149945',
+  'zoneTag': '',
+  'zoneId': '0',
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:126401.0,请求方式：POST,headers:{'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTExODI4MjcsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODU5MDgyNywiYWNjX2lkIjo3MzIyfQ.Yc62Xi6KZCRNBCi5jEW87n2Z-4aBMER1egux8oxMBZuVysEcEQK-7fdq8twq1Cvff_5CjEmQoQMWEkOosK7BZQ'}
+[2024-02-22 16:33:46.989384] INFO: interface_case_run: 返回结果:{'code': 0, 'result': 127878}
+[2024-02-22 16:33:46.991378] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-22 16:33:46.993373] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-22 16:33:46.995368] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:47.005341] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-22 16:33:47.007364] INFO: interface_case_run: 测试用例开始执行
+[2024-02-22 16:33:47.009371] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/generateTOrderId,key:,参数:{
+  'spcIds':[127878]},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTExODI4MjcsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODU5MDgyNywiYWNjX2lkIjo3MzIyfQ.Yc62Xi6KZCRNBCi5jEW87n2Z-4aBMER1egux8oxMBZuVysEcEQK-7fdq8twq1Cvff_5CjEmQoQMWEkOosK7BZQ'}
+[2024-02-22 16:33:47.427540] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-22 16:33:47.429537] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-22 16:33:47.431528] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:47.437466] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-22 16:33:47.440455] INFO: interface_case_run: 测试用例开始执行
+[2024-02-22 16:33:47.442449] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/integralGrantRecord/calcAmount,key:,参数:{
+  'mpcId': '0',
+  'upkgId': '0',
+  'discountMpcIds': [],
+  'sumAmount': '0',
+  'torderId': 'a06803521e7945eda5e3de71a2c035bd',
+  'mpcIds': [9040, 9041],
+  'splNo': ''
+},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTExODI4MjcsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODU5MDgyNywiYWNjX2lkIjo3MzIyfQ.Yc62Xi6KZCRNBCi5jEW87n2Z-4aBMER1egux8oxMBZuVysEcEQK-7fdq8twq1Cvff_5CjEmQoQMWEkOosK7BZQ'}
+[2024-02-22 16:33:47.445442] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-22 16:33:47.447436] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-22 16:33:47.449484] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-22 16:33:47.455415] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-22 16:33:47.457409] INFO: interface_case_run: 测试用例开始执行
+[2024-02-22 16:33:47.460402] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/orderInfo/order/submit,key:,参数:{
+  'torderId': 'a06803521e7945eda5e3de71a2c035bd',
+  'orderMallPrice': '1.1',
+  'logisticsMallPrice': 0,
+  'addrId': '1000530',
+  'qqOrPhoneNumber': '',
+  'prepaidRatio': '0',
+  'deliveryStartTime': '',
+  'deliveryEndTime':'' ,
+  'splNo': '',
+  'skuBuyInfos': [
+    {
+      'zoneId': '0',
+      'skuId': '1149945',
+      'orderProductRemark': '',
+      'activityId': ''
+    }
+  ]
+},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTExODI4MjcsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODU5MDgyNywiYWNjX2lkIjo3MzIyfQ.Yc62Xi6KZCRNBCi5jEW87n2Z-4aBMER1egux8oxMBZuVysEcEQK-7fdq8twq1Cvff_5CjEmQoQMWEkOosK7BZQ'}
+[2024-02-22 16:33:47.896280] INFO: interface_case_run: 测试用例执行完毕

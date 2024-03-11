@@ -1,0 +1,30 @@
+[2024-02-04 16:52:15.139699] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-04 16:52:15.140695] INFO: interface_case_run: 全部args参数参数信息 , ('加入隐形购物车.xls',)
+[2024-02-04 16:52:15.141722] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-04 16:52:15.141722] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-04 16:52:15.141722] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\加入隐形购物车.xls',)
+[2024-02-04 16:52:15.142717] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-04 16:52:15.169618] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-04 16:52:15.170617] INFO: interface_case_run: 全部args参数参数信息 , ('生成临时订单号.xls',)
+[2024-02-04 16:52:15.170617] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-04 16:52:15.171614] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-04 16:52:15.172611] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\生成临时订单号.xls',)
+[2024-02-04 16:52:15.172611] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-04 16:52:15.662052] INFO: interface_case_run: 测试用例开始执行
+[2024-02-04 16:52:15.665055] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId':'1149944',
+  'zoneTag': '',
+  'zoneId': '0',
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:126401.0,请求方式：POST,headers:{'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MDk2Mjg3MzcsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwNzAzNjczNywiYWNjX2lkIjo3MzIyfQ.vojNZW5_JOmaJdM6kBtx58-icofz1-1Nvo73UzIvIksItZaf9thX09vBcFAl6y8Ej7WvmeIHNG40cCMhzStgqw'}
+[2024-02-04 16:52:16.336412] INFO: interface_case_run: 返回结果:{'code': 0, 'result': 127766}
+[2024-02-04 16:52:16.338407] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-04 16:52:16.340401] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-04 16:52:16.341431] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-04 16:52:16.347395] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-04 16:52:16.349377] INFO: interface_case_run: 测试用例开始执行
+[2024-02-04 16:52:16.351372] INFO: interface_case_run: 测试用例执行完毕

@@ -1,0 +1,123 @@
+[2024-03-01 15:28:29.603603] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-01 15:28:29.603603] INFO: interface_case_run: 全部args参数参数信息 , ('加入隐形购物车.xls',)
+[2024-03-01 15:28:29.604600] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.604600] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-01 15:28:29.605582] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\加入隐形购物车.xls',)
+[2024-03-01 15:28:29.605582] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.615542] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-01 15:28:29.616540] INFO: interface_case_run: 全部args参数参数信息 , ('生成临时订单号.xls',)
+[2024-03-01 15:28:29.616540] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.617538] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-01 15:28:29.617538] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\生成临时订单号.xls',)
+[2024-03-01 15:28:29.618534] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.620529] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-01 15:28:29.621526] INFO: interface_case_run: 全部args参数参数信息 , ('金额计算.xls',)
+[2024-03-01 15:28:29.622524] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.622524] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-01 15:28:29.622524] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\金额计算.xls',)
+[2024-03-01 15:28:29.623550] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.626542] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-01 15:28:29.627539] INFO: interface_case_run: 全部args参数参数信息 , ('下单.xls',)
+[2024-03-01 15:28:29.627539] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.627539] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-01 15:28:29.628536] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\下单.xls',)
+[2024-03-01 15:28:29.628536] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.631528] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-01 15:28:29.631528] INFO: interface_case_run: 全部args参数参数信息 , ('输入支付密码.xls',)
+[2024-03-01 15:28:29.632497] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.632497] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-01 15:28:29.633523] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\输入支付密码.xls',)
+[2024-03-01 15:28:29.633523] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.636515] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-01 15:28:29.636515] INFO: interface_case_run: 全部args参数参数信息 , ('支付.xls',)
+[2024-03-01 15:28:29.637512] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:29.637512] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-01 15:28:29.638481] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\支付.xls',)
+[2024-03-01 15:28:29.638481] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:30.333400] INFO: interface_case_run: 测试用例开始执行
+[2024-03-01 15:28:30.334397] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId':'1149945',
+  'zoneTag': '',
+  'zoneId': '0',
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:expected_status_code=200,请求方式：POST,headers:{'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MjU5IiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoi5r2Y6I-KIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IjEzNzk1OTk3NjkxIiwibWFwcF9pZCI6MTA5MDAsInVpZCI6NTI1OSwiZmlyc3RfbG9naW5fbWFsbCI6ZmFsc2UsIm1hbGxfaWQiOjkwMDQsInN0YXRlIjoiVVNFUiIsImV4cCI6MTcxMTg3MDExMCwiYXBwX2lkIjoicGpfNC4wIiwiaWF0IjoxNzA5Mjc4MTEwLCJhY2NfaWQiOjYzOTR9.wd4eeyz9fOuXodq7HC8V4U5lf97UB-66JtEeFO662MEPd4z6BjQjHCCjoU0aG3_2o8iTXOH7pc8BNYiwksFrGg'}
+[2024-03-01 15:28:30.887740] INFO: interface_case_run: 返回结果:{'code': 0, 'result': 128216}
+[2024-03-01 15:28:30.890732] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-03-01 15:28:30.892727] INFO: interface_case_run: 全部args参数参数信息 , ('expected_status_code=200',)
+[2024-03-01 15:28:30.894721] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:32.396593] INFO: interface_case_run: 测试用例执行完毕
+[2024-03-01 15:28:32.398542] INFO: interface_case_run: 测试用例开始执行
+[2024-03-01 15:28:32.400536] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/generateTOrderId,key:,参数:{
+  'spcIds':[128216]},期望:expected_status_code=200,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MjU5IiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoi5r2Y6I-KIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IjEzNzk1OTk3NjkxIiwibWFwcF9pZCI6MTA5MDAsInVpZCI6NTI1OSwiZmlyc3RfbG9naW5fbWFsbCI6ZmFsc2UsIm1hbGxfaWQiOjkwMDQsInN0YXRlIjoiVVNFUiIsImV4cCI6MTcxMTg3MDExMCwiYXBwX2lkIjoicGpfNC4wIiwiaWF0IjoxNzA5Mjc4MTEwLCJhY2NfaWQiOjYzOTR9.wd4eeyz9fOuXodq7HC8V4U5lf97UB-66JtEeFO662MEPd4z6BjQjHCCjoU0aG3_2o8iTXOH7pc8BNYiwksFrGg'}
+[2024-03-01 15:28:32.779373] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-03-01 15:28:32.780369] INFO: interface_case_run: 全部args参数参数信息 , ('expected_status_code=200',)
+[2024-03-01 15:28:32.781366] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:33.217304] INFO: interface_case_run: 测试用例执行完毕
+[2024-03-01 15:28:33.220250] INFO: interface_case_run: 测试用例开始执行
+[2024-03-01 15:28:33.223242] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/integralGrantRecord/calcAmount,key:,参数:{
+  'mpcId': '0',
+  'upkgId': '0',
+  'discountMpcIds': [],
+  'sumAmount': '0',
+  'torderId': '生成临时订单号失败',
+  'mpcIds': [9040, 9041],
+  'splNo': ''
+},期望:expected_status_code=200,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MjU5IiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoi5r2Y6I-KIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IjEzNzk1OTk3NjkxIiwibWFwcF9pZCI6MTA5MDAsInVpZCI6NTI1OSwiZmlyc3RfbG9naW5fbWFsbCI6ZmFsc2UsIm1hbGxfaWQiOjkwMDQsInN0YXRlIjoiVVNFUiIsImV4cCI6MTcxMTg3MDExMCwiYXBwX2lkIjoicGpfNC4wIiwiaWF0IjoxNzA5Mjc4MTEwLCJhY2NfaWQiOjYzOTR9.wd4eeyz9fOuXodq7HC8V4U5lf97UB-66JtEeFO662MEPd4z6BjQjHCCjoU0aG3_2o8iTXOH7pc8BNYiwksFrGg'}
+[2024-03-01 15:28:33.602587] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：599'}
+[2024-03-01 15:28:33.604582] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-03-01 15:28:33.606615] INFO: interface_case_run: 全部args参数参数信息 , ('expected_status_code=200',)
+[2024-03-01 15:28:33.608611] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:33.980658] INFO: interface_case_run: 测试用例执行完毕
+[2024-03-01 15:28:33.983690] INFO: interface_case_run: 测试用例开始执行
+[2024-03-01 15:28:33.986691] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/orderInfo/order/submit,key:,参数:{
+  'torderId': '生成临时订单号失败',
+  'orderMallPrice': '1.1',
+  'logisticsMallPrice': 0,
+  'addrId': '1000530',
+  'qqOrPhoneNumber': '',
+  'prepaidRatio': '0',
+  'deliveryStartTime': '',
+  'deliveryEndTime':'' ,
+  'splNo': '',
+  'skuBuyInfos': [
+    {
+      'zoneId': '0',
+      'skuId': '1149945',
+      'orderProductRemark': '',
+      'activityId': ''
+    }
+  ]
+},期望:expected_status_code=200,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MjU5IiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoi5r2Y6I-KIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IjEzNzk1OTk3NjkxIiwibWFwcF9pZCI6MTA5MDAsInVpZCI6NTI1OSwiZmlyc3RfbG9naW5fbWFsbCI6ZmFsc2UsIm1hbGxfaWQiOjkwMDQsInN0YXRlIjoiVVNFUiIsImV4cCI6MTcxMTg3MDExMCwiYXBwX2lkIjoicGpfNC4wIiwiaWF0IjoxNzA5Mjc4MTEwLCJhY2NfaWQiOjYzOTR9.wd4eeyz9fOuXodq7HC8V4U5lf97UB-66JtEeFO662MEPd4z6BjQjHCCjoU0aG3_2o8iTXOH7pc8BNYiwksFrGg'}
+[2024-03-01 15:28:34.804517] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：599'}
+[2024-03-01 15:28:34.807512] INFO: interface_case_run: 测试用例执行完毕
+[2024-03-01 15:28:34.808535] INFO: interface_case_run: 测试用例开始执行
+[2024-03-01 15:28:34.809506] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/orderInfo/order/paypwd/input,key:,参数:{
+  "payPwd": "670b14728ad9902aecba32e22fa4f6bd",
+  "mpcId": "9040"
+},期望:expected_status_code=200,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MjU5IiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoi5r2Y6I-KIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IjEzNzk1OTk3NjkxIiwibWFwcF9pZCI6MTA5MDAsInVpZCI6NTI1OSwiZmlyc3RfbG9naW5fbWFsbCI6ZmFsc2UsIm1hbGxfaWQiOjkwMDQsInN0YXRlIjoiVVNFUiIsImV4cCI6MTcxMTg3MDExMCwiYXBwX2lkIjoicGpfNC4wIiwiaWF0IjoxNzA5Mjc4MTEwLCJhY2NfaWQiOjYzOTR9.wd4eeyz9fOuXodq7HC8V4U5lf97UB-66JtEeFO662MEPd4z6BjQjHCCjoU0aG3_2o8iTXOH7pc8BNYiwksFrGg'}
+[2024-03-01 15:28:35.532639] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'guid': '7fcaddcf076b4e2da98bf54cdf049da4'}}
+[2024-03-01 15:28:35.532639] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-03-01 15:28:35.533611] INFO: interface_case_run: 全部args参数参数信息 , ('expected_status_code=200',)
+[2024-03-01 15:28:35.534609] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:35.891567] INFO: interface_case_run: 测试用例执行完毕
+[2024-03-01 15:28:35.892594] INFO: interface_case_run: 测试用例开始执行
+[2024-03-01 15:28:35.892594] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/orderInfo/order/pay,key:,参数:{
+  "orderId": "null",
+  "payPwdGuid":"e714a60f5e5a45b884a75b368ec8a717",
+  "mpcId": 9040,
+  "externalPayParam": "{\"start_type\":\"1\",\"pay_back_url\":\"http://mall.fat.eqmall2.100bm.cn/pj_4.0/order/paying?orderId=null&payType=undefined\"}",
+  "upkgId": 0,
+  "discountMpcIds": [],
+  "torderId": "生成临时订单号失败",
+  "mpcIds": [9040, 9041],
+  "splNo": ""
+},期望:expected_status_code=200,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MjU5IiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoi5r2Y6I-KIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IjEzNzk1OTk3NjkxIiwibWFwcF9pZCI6MTA5MDAsInVpZCI6NTI1OSwiZmlyc3RfbG9naW5fbWFsbCI6ZmFsc2UsIm1hbGxfaWQiOjkwMDQsInN0YXRlIjoiVVNFUiIsImV4cCI6MTcxMTg3MDExMCwiYXBwX2lkIjoicGpfNC4wIiwiaWF0IjoxNzA5Mjc4MTEwLCJhY2NfaWQiOjYzOTR9.wd4eeyz9fOuXodq7HC8V4U5lf97UB-66JtEeFO662MEPd4z6BjQjHCCjoU0aG3_2o8iTXOH7pc8BNYiwksFrGg'}
+[2024-03-01 15:28:36.222857] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：500'}
+[2024-03-01 15:28:36.223851] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-03-01 15:28:36.223851] INFO: interface_case_run: 全部args参数参数信息 , ('expected_status_code=200',)
+[2024-03-01 15:28:36.224848] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-01 15:28:36.532148] INFO: interface_case_run: 测试用例执行完毕

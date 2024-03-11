@@ -1,0 +1,36 @@
+[2024-02-21 09:46:28.301354] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-21 09:46:28.302351] INFO: interface_case_run: 全部args参数参数信息 , ('加入隐形购物车.xls',)
+[2024-02-21 09:46:28.302351] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 09:46:28.303350] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-21 09:46:28.303350] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\加入隐形购物车.xls',)
+[2024-02-21 09:46:28.304347] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 09:46:28.314292] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-21 09:46:28.315288] INFO: interface_case_run: 全部args参数参数信息 , ('生成临时订单号.xls',)
+[2024-02-21 09:46:28.315288] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 09:46:28.316286] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-21 09:46:28.316286] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\生成临时订单号.xls',)
+[2024-02-21 09:46:28.317283] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 09:46:29.049105] INFO: interface_case_run: 测试用例开始执行
+[2024-02-21 09:46:29.052098] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId':'1149944',
+  'zoneTag': '',
+  'zoneId': '0',
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTEwNzE5ODgsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODQ3OTk4OCwiYWNjX2lkIjo3MzIyfQ.9ev8p4im4guPlXKuAmkcvOP2r2iSdFcgnQyrPanG3MI-WdhdQbMPpWxj0p-nuIWyHs-jnb9DLhnmS8eWuV3k8A'}
+[2024-02-21 09:46:29.531285] INFO: interface_case_run: 返回结果:{'code': 0, 'result': 127814}
+[2024-02-21 09:46:29.533329] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-21 09:46:29.535323] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-21 09:46:29.537320] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 09:46:29.545252] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-21 09:46:29.547291] INFO: interface_case_run: 测试用例开始执行
+[2024-02-21 09:46:29.549286] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/generateTOrderId,key:,参数:{
+  'spcIds':'[127814]'},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTEwNzE5ODgsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODQ3OTk4OCwiYWNjX2lkIjo3MzIyfQ.9ev8p4im4guPlXKuAmkcvOP2r2iSdFcgnQyrPanG3MI-WdhdQbMPpWxj0p-nuIWyHs-jnb9DLhnmS8eWuV3k8A'}
+[2024-02-21 09:46:29.909743] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：500'}
+[2024-02-21 09:46:29.911698] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-21 09:46:29.912726] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-21 09:46:29.914732] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 09:46:29.917681] INFO: interface_case_run: 测试用例执行完毕

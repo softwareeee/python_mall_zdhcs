@@ -1,0 +1,59 @@
+[2023-11-21 10:44:03.754054] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2023-11-21 10:44:03.755049] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2023-11-21 10:44:03.756047] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 10:44:03.756047] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2023-11-21 10:44:03.756047] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2023-11-21 10:44:03.757044] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 10:44:03.768984] INFO: interface_case_run: 获取登录接口token
+[2023-11-21 10:44:03.801817] INFO: interface_case_run: 测试用例开始执行
+[2023-11-21 10:44:03.802841] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2023-11-21 10:44:03.802841] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2023-11-21 10:44:03.831756] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：502'}
+[2023-11-21 10:44:03.831756] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-21 10:44:03.832781] INFO: interface_case_run: 全部args参数参数信息 , ('code=0',)
+[2023-11-21 10:44:03.832781] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 10:44:03.834759] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-21 10:44:03.835745] INFO: interface_case_run: 测试用例开始执行
+[2023-11-21 10:44:03.835745] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2023-11-21 10:44:03.835745] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2023-11-21 10:44:03.861676] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：502'}
+[2023-11-21 10:44:03.862673] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-21 10:44:03.862673] INFO: interface_case_run: 全部args参数参数信息 , ('code=0',)
+[2023-11-21 10:44:03.863698] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 10:44:03.864697] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-21 10:44:03.864697] INFO: interface_case_run: 测试用例开始执行
+[2023-11-21 10:44:03.865694] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2023-11-21 10:44:03.865694] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2023-11-21 10:44:03.889682] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：502'}
+[2023-11-21 10:44:03.890707] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-21 10:44:03.890707] INFO: interface_case_run: 全部args参数参数信息 , ('code=0',)
+[2023-11-21 10:44:03.890707] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 10:44:03.891704] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-21 10:44:03.892702] INFO: interface_case_run: 测试用例开始执行
+[2023-11-21 10:44:03.892702] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2023-11-21 10:44:03.893670] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2023-11-21 10:44:03.918429] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：502'}
+[2023-11-21 10:44:03.919420] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-21 10:44:03.920446] INFO: interface_case_run: 全部args参数参数信息 , ('code=0',)
+[2023-11-21 10:44:03.920446] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 10:44:03.921446] INFO: interface_case_run: 测试用例执行完毕

@@ -1,0 +1,22 @@
+[2024-01-24 14:59:48.541176] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-24 14:59:48.541176] INFO: interface_case_run: 全部args参数参数信息 , ('case.xls',)
+[2024-01-24 14:59:48.542171] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-24 14:59:48.543168] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-24 14:59:48.543168] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2024-01-24 14:59:48.544165] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-24 14:59:48.975397] INFO: interface_case_run: 测试用例开始执行
+[2024-01-24 14:59:48.976400] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '&skuid',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-24 14:59:48.978425] INFO: interface_case_run: 用例依赖执行失败：[Errno 2] No such file or directory: 'G:\\python项目\\python_zdhkj\\test_Report\\caseresult.yaml'
+[2024-01-24 14:59:48.983377] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-24 14:59:48.985371] INFO: interface_case_run: 测试用例开始执行
+[2024-01-24 14:59:48.986368] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '&skuid',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-24 14:59:48.988363] INFO: interface_case_run: 用例依赖执行失败：[Errno 2] No such file or directory: 'G:\\python项目\\python_zdhkj\\test_Report\\caseresult.yaml'
+[2024-01-24 14:59:48.990357] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-24 14:59:48.992353] INFO: interface_case_run: 测试用例开始执行
+[2024-01-24 14:59:48.994379] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '&skuid',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-24 14:59:48.995344] INFO: interface_case_run: 用例依赖执行失败：[Errno 2] No such file or directory: 'G:\\python项目\\python_zdhkj\\test_Report\\caseresult.yaml'
+[2024-01-24 14:59:48.998337] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-24 14:59:49.000331] INFO: interface_case_run: 测试用例开始执行
+[2024-01-24 14:59:49.001328] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '&skuid',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-24 14:59:49.003323] INFO: interface_case_run: 用例依赖执行失败：[Errno 2] No such file or directory: 'G:\\python项目\\python_zdhkj\\test_Report\\caseresult.yaml'
+[2024-01-24 14:59:49.005317] INFO: interface_case_run: 测试用例执行完毕

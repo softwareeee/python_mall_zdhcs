@@ -1,0 +1,6 @@
+[2023-11-13 15:55:15.458995] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2023-11-13 15:55:15.458995] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2023-11-13 15:55:15.459992] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-13 15:55:15.459992] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2023-11-13 15:55:15.460989] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2023-11-13 15:55:15.460989] INFO: interface_case_run: 全部kwargs参数信息 , {}

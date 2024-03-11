@@ -1,0 +1,109 @@
+[2024-02-23 11:28:22.519304] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-23 11:28:22.520293] INFO: interface_case_run: 全部args参数参数信息 , ('加入隐形购物车.xls',)
+[2024-02-23 11:28:22.520293] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.521314] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-23 11:28:22.521314] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\加入隐形购物车.xls',)
+[2024-02-23 11:28:22.521314] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.531263] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-23 11:28:22.532260] INFO: interface_case_run: 全部args参数参数信息 , ('生成临时订单号.xls',)
+[2024-02-23 11:28:22.532260] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.533290] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-23 11:28:22.534262] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\生成临时订单号.xls',)
+[2024-02-23 11:28:22.534262] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.537247] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-23 11:28:22.538244] INFO: interface_case_run: 全部args参数参数信息 , ('金额计算.xls',)
+[2024-02-23 11:28:22.538244] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.539242] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-23 11:28:22.539242] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\金额计算.xls',)
+[2024-02-23 11:28:22.539242] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.542234] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-23 11:28:22.543231] INFO: interface_case_run: 全部args参数参数信息 , ('下单.xls',)
+[2024-02-23 11:28:22.543231] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.544259] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-23 11:28:22.544259] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\下单.xls',)
+[2024-02-23 11:28:22.545254] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.547249] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-23 11:28:22.548247] INFO: interface_case_run: 全部args参数参数信息 , ('输入支付密码.xls',)
+[2024-02-23 11:28:22.548247] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.549243] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-23 11:28:22.549243] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\输入支付密码.xls',)
+[2024-02-23 11:28:22.550214] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.553232] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-23 11:28:22.554230] INFO: interface_case_run: 全部args参数参数信息 , ('支付.xls',)
+[2024-02-23 11:28:22.554230] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:22.554230] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-23 11:28:22.555227] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\支付.xls',)
+[2024-02-23 11:28:22.555227] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:23.057040] INFO: interface_case_run: 测试用例开始执行
+[2024-02-23 11:28:23.060048] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId':'1149945',
+  'zoneTag': '',
+  'zoneId': '0',
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:126401.0,请求方式：POST,headers:{'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTEyNTA5MDQsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODY1ODkwNCwiYWNjX2lkIjo3MzIyfQ.pNIvr6iYWodYL_fERlFGtbiPDEXgo__lTzscGFIILS0IlVvRe_zu9rC71_cGGAAifTgPidVboM1WIQIPDq2nDQ'}
+[2024-02-23 11:28:23.571813] INFO: interface_case_run: 返回结果:{'code': 0, 'result': 127901}
+[2024-02-23 11:28:23.573808] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-23 11:28:23.575802] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-23 11:28:23.577796] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:23.586782] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-23 11:28:23.588768] INFO: interface_case_run: 测试用例开始执行
+[2024-02-23 11:28:23.591768] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/generateTOrderId,key:,参数:{
+  'spcIds':[127901]},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTEyNTA5MDQsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODY1ODkwNCwiYWNjX2lkIjo3MzIyfQ.pNIvr6iYWodYL_fERlFGtbiPDEXgo__lTzscGFIILS0IlVvRe_zu9rC71_cGGAAifTgPidVboM1WIQIPDq2nDQ'}
+[2024-02-23 11:28:24.023363] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-23 11:28:24.025358] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-23 11:28:24.026352] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:24.030341] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-23 11:28:24.032336] INFO: interface_case_run: 测试用例开始执行
+[2024-02-23 11:28:24.035328] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/integralGrantRecord/calcAmount,key:,参数:{
+  'mpcId': '0',
+  'upkgId': '0',
+  'discountMpcIds': [],
+  'sumAmount': '0',
+  'torderId': '791a0161723d40c4ba8008f69ec62750',
+  'mpcIds': [9040, 9041],
+  'splNo': ''
+},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTEyNTA5MDQsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODY1ODkwNCwiYWNjX2lkIjo3MzIyfQ.pNIvr6iYWodYL_fERlFGtbiPDEXgo__lTzscGFIILS0IlVvRe_zu9rC71_cGGAAifTgPidVboM1WIQIPDq2nDQ'}
+[2024-02-23 11:28:24.510807] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'opds': [{'orderId': '', 'paymentType': '@SYSPAY', 'mallAmount': 1.1, 'amount': 1.1, 'paymentConfigType': 1, 'mpcId': 9041, 'igrName': '', 'mpcName': '系统支付', 'mallUnit': '', 'priceSymbols': '', 'productAmount': 1.1, 'productMallAmount': 1.1, 'logisticsMallAmount': 0.0, 'logisticsAmount': 0, 'cardNo': '', 'userNo': ''}], 'opps': [{'paymentType': '@SYSPAY', 'paymentConfigType': 1, 'orderId': '', 'skuId': '1149945', 'zoneId': 0, 'mallAmount': 1.1, 'amount': 1.1, 'productMallAmount': 1.1, 'productAmount': 1.1, 'logisticsMallAmount': 0.0, 'logisticsAmount': 0, 'refundedAmount': 0, 'refundedMallAmount': 0, 'version': '1.1', 'cardNo': ''}], 'paymentResults': [{'mpcId': 9040, 'mpcName': '车主豆支付', 'paymentType': 'INTEGRAL', 'paymentConfigType': 2, 'amount': 0, 'balance': 0}, {'mpcId': 9041, 'mpcName': '系统支付', 'paymentType': '@SYSPAY', 'paymentConfigType': 1, 'amount': 1.1}], 'errorSpcIds': [], 'totalAmount': 1.1, 'productsAmount': 1.1, 'totalLogistics': 0, 'deductAmount': 0.0, 'leftPayAmount': 1.1, 'canPay': True, 'logisticsTemplates': [{'templateId': '-1', 'type': 1, 'contentList': [{'logisticsAmount': 0, 'startAmount': 0}], 'items': [{'spcId': 127901, 'mallId': 9004, 'zoneId': 0, 'uid': 6611, 'spuId': '215725', 'skuId': '1149945', 'productName': '三方-测试商品发饰', 'num': 1, 'originalAmount': 1.1, 'createTime': '2024-02-23 11:28:25', 'lastUpdateTime': '2024-02-23 11:28:25', 'standard': '材质2', 'cartType': 2, 'goodsType': 1, 'imgUrl': '//file.fat.eqmall2.100bm.cn/supplier/ee039625-4d10-40aa-9a6a-0566da73bbd1.jpg', 'status': 0, 'instructions': '', 'logisticsAmount': 0, 'select': False, 'change': False, 'orderId': '', 'igrs': [], 'availableIgrs': [], 'opps': [{'paymentType': '@SYSPAY', 'paymentConfigType': 1, 'orderId': '', 'skuId': '1149945', 'zoneId': 0, 'mallAmount': 1.1, 'amount': 1.1, 'productMallAmount': 1.1, 'productAmount': 1.1, 'logisticsMallAmount': 0.0, 'logisticsAmount': 0, 'refundedAmount': 0, 'refundedMallAmount': 0, 'version': '1.1', 'cardNo': ''}], 'activityId': 0, 'torderId': '791a0161723d40c4ba8008f69ec62750', 'leftAmount': -1.1, 'totalAmount': 0, 'productAmount': 0, 'integralCost': 1.1, 'integralProductCost': 1.1, 'integralLogisticsCost': 0, 'currentIntegralCost': 0}], 'noLogisticsAmount': 0, 'totalLogisticsAmount': 0}], 'cartList': [{'spcId': 127901, 'mallId': 9004, 'zoneId': 0, 'uid': 6611, 'spuId': '215725', 'skuId': '1149945', 'productName': '三方-测试商品发饰', 'num': 1, 'originalAmount': 1.1, 'createTime': '2024-02-23 11:28:25', 'lastUpdateTime': '2024-02-23 11:28:25', 'standard': '材质2', 'cartType': 2, 'goodsType': 1, 'imgUrl': '//file.fat.eqmall2.100bm.cn/supplier/ee039625-4d10-40aa-9a6a-0566da73bbd1.jpg', 'status': 0, 'instructions': '', 'logisticsAmount': 0, 'select': False, 'change': False, 'orderId': '', 'igrs': [], 'availableIgrs': [], 'opps': [{'paymentType': '@SYSPAY', 'paymentConfigType': 1, 'orderId': '', 'skuId': '1149945', 'zoneId': 0, 'mallAmount': 1.1, 'amount': 1.1, 'productMallAmount': 1.1, 'productAmount': 1.1, 'logisticsMallAmount': 0.0, 'logisticsAmount': 0, 'refundedAmount': 0, 'refundedMallAmount': 0, 'version': '1.1', 'cardNo': ''}], 'activityId': 0, 'torderId': '791a0161723d40c4ba8008f69ec62750', 'leftAmount': -1.1, 'totalAmount': 0, 'productAmount': 0, 'integralCost': 1.1, 'integralProductCost': 1.1, 'integralLogisticsCost': 0, 'currentIntegralCost': 0}], 'igrResult': {'changeList': [], 'integralCost': 0, 'igrCount': 0, 'availableCount': 0, 'isDefault': True}, 'mallUnit': '积分', 'priceSymbols': '￥', 'actualAmount': 1.1, 'tempAmount': 1.1, 'torderId': '791a0161723d40c4ba8008f69ec62750'}}
+[2024-02-23 11:28:24.513798] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-23 11:28:24.515793] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-23 11:28:24.517827] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:24.522824] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-23 11:28:24.524820] INFO: interface_case_run: 测试用例开始执行
+[2024-02-23 11:28:24.527810] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/orderInfo/order/submit,key:,参数:{
+  'torderId': '791a0161723d40c4ba8008f69ec62750',
+  'orderMallPrice': '1.1',
+  'logisticsMallPrice': 0,
+  'addrId': '1000530',
+  'qqOrPhoneNumber': '',
+  'prepaidRatio': '0',
+  'deliveryStartTime': '',
+  'deliveryEndTime':'' ,
+  'splNo': '',
+  'skuBuyInfos': [
+    {
+      'zoneId': '0',
+      'skuId': '1149945',
+      'orderProductRemark': '',
+      'activityId': ''
+    }
+  ]
+},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTEyNTA5MDQsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODY1ODkwNCwiYWNjX2lkIjo3MzIyfQ.pNIvr6iYWodYL_fERlFGtbiPDEXgo__lTzscGFIILS0IlVvRe_zu9rC71_cGGAAifTgPidVboM1WIQIPDq2nDQ'}
+[2024-02-23 11:28:26.433071] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'orderId': 'MHH1708658907250760841', 'extOrderId': '', 'mallId': 9004, 'pmerId': 18, 'uid': 6611, 'orderType': 2, 'plineId': 100, 'source': 1, 'orderSnap': '三方-测试商品发饰', 'mallAmount': 1.1, 'orderAmount': 1.1, 'extMallAmount': 1.1, 'extOrderAmount': 1.1, 'micouponBalanceAmount': 0, 'micouponCardAmount': 0, 'paymentType': '', 'orderStatus': 21, 'createTime': '2024-02-23 11:28:27', 'payTimeout': '2024-02-23 11:58:27', 'updateTime': '2024-02-23 11:28:27', 'extInfo': '{"deliveryList":[{"deliveryId":824022300045570,"goodsList":[{"buyNum":1,"deliveryId":824022300045570,"goodsAmount":1.10000,"goodsPrice":1.10000,"merProductId":1149945,"skuId":"RAJu2Ymq","zoneId":0}],"splDeliveryNo":"824022300045570"}],"expressAmount":0.00000,"goodsList":[{"buyNum":1,"deliveryId":824022300045570,"goodsAmount":1.10000,"goodsPrice":1.10000,"merProductId":1149945,"skuId":"RAJu2Ymq","zoneId":0}],"goodsTotalAmount":1.10000,"merNo":"pj_4.0","merOrderNo":"MHH1708658907250760841","orderId":"T24022300045569"}', 'logisticsAmount': 0.0, 'mallLogisticsAmount': 0, 'account': '', 'userSourceExtInfo': '{}', 'serialNo': '', 'afterSaleId': '', 'mappId': 10900, 'reason': '', 'failReason': '', 'version': 'v2.0', 'isVip': 1, 'saleType': 1, 'merNo': '', 'snapshot': '', 'priceChanged': False, 'isNotHaveStockGift': False, 'notHaveStockGiftMerProductIds': []}}
+[2024-02-23 11:28:26.435106] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-23 11:28:26.437109] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-23 11:28:26.439104] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:26.444090] INFO: interface_case_run: 测试用例执行完毕
+[2024-02-23 11:28:26.446085] INFO: interface_case_run: 测试用例开始执行
+[2024-02-23 11:28:26.449029] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/orderInfo/order/paypwd/input,key:,参数:{
+  "payPwd": "670b14728ad9902aecba32e22fa4f6bd",
+  "mpcId": "9040"
+},期望:126401.0,请求方式：POST,headers:{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MTEyNTA5MDQsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwODY1ODkwNCwiYWNjX2lkIjo3MzIyfQ.pNIvr6iYWodYL_fERlFGtbiPDEXgo__lTzscGFIILS0IlVvRe_zu9rC71_cGGAAifTgPidVboM1WIQIPDq2nDQ'}
+[2024-02-23 11:28:27.334013] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：912'}
+[2024-02-23 11:28:27.335012] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-23 11:28:27.336008] INFO: interface_case_run: 全部args参数参数信息 , (126401.0,)
+[2024-02-23 11:28:27.337005] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-23 11:28:27.339997] INFO: interface_case_run: 测试用例执行完毕

@@ -1,0 +1,22 @@
+[2024-01-16 18:32:55.012103] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-16 18:32:55.013100] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2024-01-16 18:32:55.013100] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-16 18:32:55.014097] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-16 18:32:55.014097] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2024-01-16 18:32:55.015094] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-16 18:32:55.574721] INFO: interface_case_run: 测试用例开始执行
+[2024-01-16 18:32:55.576716] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '1149944',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-16 18:32:55.578738] INFO: interface_case_run: {'skuId': '1149944', 'zoneTag': '', 'zoneId': 0, 'igrId': 'null', 'num': '1', 'buyInstantly': 'true', 'buyAgain': 'true', 'activityId': '0'}
+[2024-01-16 18:32:55.591671] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-16 18:32:55.593665] INFO: interface_case_run: 测试用例开始执行
+[2024-01-16 18:32:55.595660] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '1149944',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-16 18:32:55.598653] INFO: interface_case_run: {'skuId': '1149944', 'zoneTag': '', 'zoneId': 0, 'igrId': 'null', 'num': '1', 'buyInstantly': 'true', 'buyAgain': 'true', 'activityId': '0'}
+[2024-01-16 18:32:55.608626] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-16 18:32:55.611618] INFO: interface_case_run: 测试用例开始执行
+[2024-01-16 18:32:55.612643] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '1149944',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-16 18:32:55.614609] INFO: interface_case_run: {'skuId': '1149944', 'zoneTag': '', 'zoneId': 0, 'igrId': 'null', 'num': '1', 'buyInstantly': 'true', 'buyAgain': 'true', 'activityId': '0'}
+[2024-01-16 18:32:55.619594] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-16 18:32:55.620592] INFO: interface_case_run: 测试用例开始执行
+[2024-01-16 18:32:55.621618] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '1149944',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-16 18:32:55.623619] INFO: interface_case_run: {'skuId': '1149944', 'zoneTag': '', 'zoneId': 0, 'igrId': 'null', 'num': '1', 'buyInstantly': 'true', 'buyAgain': 'true', 'activityId': '0'}
+[2024-01-16 18:32:55.628573] INFO: interface_case_run: 测试用例执行完毕

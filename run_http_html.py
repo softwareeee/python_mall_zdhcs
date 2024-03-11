@@ -15,7 +15,7 @@ def start_interface_html_http():
     starttime = datetime.datetime.now()
     day = time.strftime("%Y%m%d%H%M", time.localtime(time.time()))
     basdir = os.path.abspath(os.path.dirname(__file__))
-    path = os.path.join(os.path.join(os.getcwd(), 'test_case_data'), 'case.xls')
+    path = os.path.join(os.path.join(os.getcwd(), 'test_case_data'), '加入隐形购物车.xls')
     listid, listkey, listconeent, listurl, listfangshi, listqiwang, listname = datacel(path)
 
     listrelust, list_fail, list_pass, list_json, list_exption, list_weizhi = testinterface()

@@ -1,0 +1,15 @@
+[2024-01-05 16:28:34.777346] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-05 16:28:34.778352] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2024-01-05 16:28:34.779341] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-05 16:28:34.779341] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-05 16:28:34.780338] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2024-01-05 16:28:34.780338] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-05 16:28:35.515151] INFO: interface_case_run: 获取登录接口token: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NjExIiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoiIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IiIsIm1hcHBfaWQiOjEwOTAwLCJ1aWQiOjY2MTEsImZpcnN0X2xvZ2luX21hbGwiOmZhbHNlLCJtYWxsX2lkIjo5MDA0LCJzdGF0ZSI6IlVTRVIiLCJleHAiOjE3MDcwMzUzMTYsImFwcF9pZCI6InBqXzQuMCIsImlhdCI6MTcwNDQ0MzMxNiwiYWNjX2lkIjo3MzIyfQ.1s1a02C5ir3F3KiHNJ8mBdckTKWWj5jIoGPYeZ8sswenWcrbV99lzVGi7hP2wrfUXFyZ9D9l_nH2b-bNac8WnA
+[2024-01-05 16:28:35.522128] INFO: interface_case_run: 测试用例开始执行
+[2024-01-05 16:28:35.531100] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-05 16:28:35.532097] INFO: interface_case_run: 测试用例开始执行
+[2024-01-05 16:28:35.536121] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-05 16:28:35.538111] INFO: interface_case_run: 测试用例开始执行
+[2024-01-05 16:28:35.542069] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-05 16:28:35.543066] INFO: interface_case_run: 测试用例开始执行
+[2024-01-05 16:28:35.547055] INFO: interface_case_run: 测试用例执行完毕

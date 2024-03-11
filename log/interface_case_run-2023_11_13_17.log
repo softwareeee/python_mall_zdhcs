@@ -1,0 +1,63 @@
+[2023-11-13 17:16:13.736453] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2023-11-13 17:16:13.737451] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2023-11-13 17:16:13.737451] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-13 17:16:13.738448] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2023-11-13 17:16:13.738448] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2023-11-13 17:16:13.739445] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-13 17:16:13.754406] INFO: interface_case_run: 获取登录接口token
+[2023-11-13 17:16:13.755403] INFO: interface_case_run: 测试用例开始执行
+[2023-11-13 17:16:13.756401] INFO: interface_case_run: {'key': '', 'info': {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}}
+[2023-11-13 17:16:13.756401] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:,请求方式：POST
+[2023-11-13 17:16:13.798288] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：400'}
+[2023-11-13 17:16:13.798288] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-13 17:16:13.799285] INFO: interface_case_run: 全部args参数参数信息 , ('',)
+[2023-11-13 17:16:13.799285] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-13 17:16:13.800282] INFO: interface_case_run: 填写测试预期值
+[2023-11-13 17:16:13.801280] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-13 17:16:13.802278] INFO: interface_case_run: 测试用例开始执行
+[2023-11-13 17:16:13.802278] INFO: interface_case_run: {'key': '', 'info': {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}}
+[2023-11-13 17:16:13.803275] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:,请求方式：POST
+[2023-11-13 17:16:13.832212] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：400'}
+[2023-11-13 17:16:13.832212] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-13 17:16:13.832212] INFO: interface_case_run: 全部args参数参数信息 , ('',)
+[2023-11-13 17:16:13.833194] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-13 17:16:13.833194] INFO: interface_case_run: 填写测试预期值
+[2023-11-13 17:16:13.834192] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-13 17:16:13.835189] INFO: interface_case_run: 测试用例开始执行
+[2023-11-13 17:16:13.835189] INFO: interface_case_run: {'key': '', 'info': {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}}
+[2023-11-13 17:16:13.836186] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:,请求方式：POST
+[2023-11-13 17:16:13.868129] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：400'}
+[2023-11-13 17:16:13.869099] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-13 17:16:13.870096] INFO: interface_case_run: 全部args参数参数信息 , ('',)
+[2023-11-13 17:16:13.870096] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-13 17:16:13.870096] INFO: interface_case_run: 填写测试预期值
+[2023-11-13 17:16:13.871093] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-13 17:16:13.872091] INFO: interface_case_run: 测试用例开始执行
+[2023-11-13 17:16:13.872091] INFO: interface_case_run: {'key': '', 'info': {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}}
+[2023-11-13 17:16:13.873088] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:,请求方式：POST
+[2023-11-13 17:16:13.905008] INFO: interface_case_run: 返回结果:{'code': 1, 'result': '接口请求失败，返回状态码：400'}
+[2023-11-13 17:16:13.906001] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-13 17:16:13.906001] INFO: interface_case_run: 全部args参数参数信息 , ('',)
+[2023-11-13 17:16:13.906997] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-13 17:16:13.906997] INFO: interface_case_run: 填写测试预期值
+[2023-11-13 17:16:13.908000] INFO: interface_case_run: 测试用例执行完毕

@@ -11,7 +11,7 @@ import threading
 def stast():
     starttime = datetime.datetime.now()
     day = time.strftime("%Y%m%d%H%M", time.localtime(time.time()))
-    path = os.path.join(os.path.join(os.getcwd(), 'test_case_data'), 'case.xls')
+    path = os.path.join(os.path.join(os.getcwd(), 'test_case_data'), '加入隐形购物车.xls')
     basdir = os.path.abspath(os.path.dirname(__file__))
     listid, listkey, listconeent, listurl, listfangshi, listqiwang, listname = datacel(path)
     listrelust, list_fail, list_pass, list_json, list_exption, list_weizhi = testinterface()

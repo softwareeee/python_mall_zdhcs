@@ -1,0 +1,36 @@
+[2024-03-04 13:59:28.786656] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-04 13:59:28.787650] INFO: interface_case_run: 全部args参数参数信息 , ('加入隐形购物车.xls',)
+[2024-03-04 13:59:28.788647] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.788647] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-04 13:59:28.788647] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\加入隐形购物车.xls',)
+[2024-03-04 13:59:28.789644] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.798592] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-04 13:59:28.799590] INFO: interface_case_run: 全部args参数参数信息 , ('生成临时订单号.xls',)
+[2024-03-04 13:59:28.800600] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.800600] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-04 13:59:28.801585] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\生成临时订单号.xls',)
+[2024-03-04 13:59:28.801585] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.804605] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-04 13:59:28.805606] INFO: interface_case_run: 全部args参数参数信息 , ('金额计算.xls',)
+[2024-03-04 13:59:28.805606] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.805606] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-04 13:59:28.806599] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\金额计算.xls',)
+[2024-03-04 13:59:28.806599] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.809564] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-04 13:59:28.810588] INFO: interface_case_run: 全部args参数参数信息 , ('下单.xls',)
+[2024-03-04 13:59:28.810588] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.810588] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-04 13:59:28.811586] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\下单.xls',)
+[2024-03-04 13:59:28.811586] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.814578] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-04 13:59:28.814578] INFO: interface_case_run: 全部args参数参数信息 , ('输入支付密码.xls',)
+[2024-03-04 13:59:28.815575] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.816545] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-04 13:59:28.817544] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\输入支付密码.xls',)
+[2024-03-04 13:59:28.817544] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.820562] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-03-04 13:59:28.820562] INFO: interface_case_run: 全部args参数参数信息 , ('支付.xls',)
+[2024-03-04 13:59:28.821559] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-03-04 13:59:28.821559] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-03-04 13:59:28.821559] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\支付.xls',)
+[2024-03-04 13:59:28.822557] INFO: interface_case_run: 全部kwargs参数信息 , {}

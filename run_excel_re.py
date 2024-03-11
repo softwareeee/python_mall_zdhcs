@@ -16,7 +16,7 @@ def start():
     mtime = datetime.datetime.now().strftime("%Y%m%d")
     basdir = os.path.abspath(os.path.dirname(__file__))
 
-    path = os.path.join(os.path.join(os.getcwd(), 'test_case_data'), 'case.xls')
+    path = os.path.join(os.path.join(os.getcwd(), 'test_case_data'), '加入隐形购物车.xls')
     listid, listkey, listconeent, listurl, listmethod, listqiwang, listname=  datacel(path)
     listrelust, list_fail, list_pass, list_json, list_weizhi, listone = testinterface()
     filepath = os.path.join(os.path.join(basdir, 'test_Report'), '%s-result.xls' % mtime)

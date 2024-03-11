@@ -1,0 +1,59 @@
+[2023-11-21 15:57:24.924444] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2023-11-21 15:57:24.925442] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2023-11-21 15:57:24.925442] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 15:57:24.925442] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2023-11-21 15:57:24.926439] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2023-11-21 15:57:24.926439] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 15:57:24.940403] INFO: interface_case_run: 获取登录接口token
+[2023-11-21 15:57:24.940403] INFO: interface_case_run: 测试用例开始执行
+[2023-11-21 15:57:24.941401] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2023-11-21 15:57:24.941401] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2023-11-21 15:57:25.125606] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'authToken': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJtYWxsUGxpbmVJZCI6MTAwLCJtZXJTaGVsZklkIjoxMDAwNSwic3ViIjoiYWRtaW4iLCJzeXN0ZW1JZCI6OTA4LCJjb3JwSWQiOjAsInN5c1R5cGUiOjAsIm1nclN5c0lkIjowLCJpZGVudCI6InBqXzYuMCIsInJvbGVJZCI6MSwibWFsbElkIjo5MDI1LCJtb2JpbGUiOiIiLCJjZXNQbGluZUlkIjoxMDQsInBtZXJJZCI6MzUsInJvbGVUeXBlIjo5OSwidWlkIjoyLCJyZWFsTmFtZSI6ImFkbWluIiwiZGVhbFByaWNlVHlwZSI6MCwibWVyTm8iOiJwal82LjAiLCJzY29ycElkIjowLCJyb2xlTmFtZSI6Iui2hee6p-euoeeQhuWRmDU1NSIsImV4cCI6MTcwMDYzOTg0NCwiaWF0IjoxNzAwNTUzNDQ0LCJqdGkiOiIwNjVlMjY0MS0wMmNjLTQzODktODgxNi1kZmIyZjkxYTgyOTciLCJ1c2VybmFtZSI6ImFkbWluIn0.w5hh-bcyCuzQgxqIN2QBkmzSRHiFCevspeIh-t4-wA4', 'uid': '2', 'realName': 'admin', 'mobile': '', 'username': 'admin', 'scorpId': '0', 'corpId': '0', 'sysExtInfo': {'mallId': '9025', 'merNo': 'pj_6.0', 'pmerId': '35', 'cesPlineId': '104', 'mallPlineId': '100', 'merShelfId': '10005', 'dealPriceType': '0'}, 'systemInfo': {'systemName': 'pj_6.0', 'systemId': '908'}, 'roleInfo': {'id': '1', 'name': '超级管理员555', 'type': '99'}, 'hideCost': False}}
+[2023-11-21 15:57:25.126610] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-21 15:57:25.128577] INFO: interface_case_run: 全部args参数参数信息 , ('code=0',)
+[2023-11-21 15:57:25.129574] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 15:57:25.132567] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-21 15:57:25.133565] INFO: interface_case_run: 测试用例开始执行
+[2023-11-21 15:57:25.134562] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2023-11-21 15:57:25.136556] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2023-11-21 15:57:25.183431] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'authToken': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJtYWxsUGxpbmVJZCI6MTAwLCJtZXJTaGVsZklkIjoxMDAwNSwic3ViIjoiYWRtaW4iLCJzeXN0ZW1JZCI6OTA4LCJjb3JwSWQiOjAsInN5c1R5cGUiOjAsIm1nclN5c0lkIjowLCJpZGVudCI6InBqXzYuMCIsInJvbGVJZCI6MSwibWFsbElkIjo5MDI1LCJtb2JpbGUiOiIiLCJjZXNQbGluZUlkIjoxMDQsInBtZXJJZCI6MzUsInJvbGVUeXBlIjo5OSwidWlkIjoyLCJyZWFsTmFtZSI6ImFkbWluIiwiZGVhbFByaWNlVHlwZSI6MCwibWVyTm8iOiJwal82LjAiLCJzY29ycElkIjowLCJyb2xlTmFtZSI6Iui2hee6p-euoeeQhuWRmDU1NSIsImV4cCI6MTcwMDYzOTg0NCwiaWF0IjoxNzAwNTUzNDQ0LCJqdGkiOiJhZjVlNDQ2MC1lN2I2LTQ0ZjYtOWRlMi0wZDAyM2I5Nzg1ZjgiLCJ1c2VybmFtZSI6ImFkbWluIn0.Yd8coWDwhyJPm5X2xOpVKOOikoN07A5OWqyk-leoYnc', 'uid': '2', 'realName': 'admin', 'mobile': '', 'username': 'admin', 'scorpId': '0', 'corpId': '0', 'sysExtInfo': {'mallId': '9025', 'merNo': 'pj_6.0', 'pmerId': '35', 'cesPlineId': '104', 'mallPlineId': '100', 'merShelfId': '10005', 'dealPriceType': '0'}, 'systemInfo': {'systemName': 'pj_6.0', 'systemId': '908'}, 'roleInfo': {'id': '1', 'name': '超级管理员555', 'type': '99'}, 'hideCost': False}}
+[2023-11-21 15:57:25.184428] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-21 15:57:25.184428] INFO: interface_case_run: 全部args参数参数信息 , ('code=0',)
+[2023-11-21 15:57:25.185424] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 15:57:25.186421] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-21 15:57:25.188420] INFO: interface_case_run: 测试用例开始执行
+[2023-11-21 15:57:25.189415] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2023-11-21 15:57:25.189415] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2023-11-21 15:57:25.231478] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'authToken': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJtYWxsUGxpbmVJZCI6MTAwLCJtZXJTaGVsZklkIjoxMDAwNSwic3ViIjoiYWRtaW4iLCJzeXN0ZW1JZCI6OTA4LCJjb3JwSWQiOjAsInN5c1R5cGUiOjAsIm1nclN5c0lkIjowLCJpZGVudCI6InBqXzYuMCIsInJvbGVJZCI6MSwibWFsbElkIjo5MDI1LCJtb2JpbGUiOiIiLCJjZXNQbGluZUlkIjoxMDQsInBtZXJJZCI6MzUsInJvbGVUeXBlIjo5OSwidWlkIjoyLCJyZWFsTmFtZSI6ImFkbWluIiwiZGVhbFByaWNlVHlwZSI6MCwibWVyTm8iOiJwal82LjAiLCJzY29ycElkIjowLCJyb2xlTmFtZSI6Iui2hee6p-euoeeQhuWRmDU1NSIsImV4cCI6MTcwMDYzOTg0NCwiaWF0IjoxNzAwNTUzNDQ0LCJqdGkiOiJjMWJhYzQwMC05ODQyLTRmZTUtYWZkYS1jZTY2YTBhNzYzMWMiLCJ1c2VybmFtZSI6ImFkbWluIn0.LXZiKFv3-VurULz_e4xEPVVxvS_D57Nl5EHA0sUvjxc', 'uid': '2', 'realName': 'admin', 'mobile': '', 'username': 'admin', 'scorpId': '0', 'corpId': '0', 'sysExtInfo': {'mallId': '9025', 'merNo': 'pj_6.0', 'pmerId': '35', 'cesPlineId': '104', 'mallPlineId': '100', 'merShelfId': '10005', 'dealPriceType': '0'}, 'systemInfo': {'systemName': 'pj_6.0', 'systemId': '908'}, 'roleInfo': {'id': '1', 'name': '超级管理员555', 'type': '99'}, 'hideCost': False}}
+[2023-11-21 15:57:25.232476] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-21 15:57:25.232476] INFO: interface_case_run: 全部args参数参数信息 , ('code=0',)
+[2023-11-21 15:57:25.233474] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 15:57:25.234498] INFO: interface_case_run: 测试用例执行完毕
+[2023-11-21 15:57:25.234498] INFO: interface_case_run: 测试用例开始执行
+[2023-11-21 15:57:25.235496] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2023-11-21 15:57:25.235496] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2023-11-21 15:57:25.284957] INFO: interface_case_run: 返回结果:{'code': 0, 'result': {'authToken': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJtYWxsUGxpbmVJZCI6MTAwLCJtZXJTaGVsZklkIjoxMDAwNSwic3ViIjoiYWRtaW4iLCJzeXN0ZW1JZCI6OTA4LCJjb3JwSWQiOjAsInN5c1R5cGUiOjAsIm1nclN5c0lkIjowLCJpZGVudCI6InBqXzYuMCIsInJvbGVJZCI6MSwibWFsbElkIjo5MDI1LCJtb2JpbGUiOiIiLCJjZXNQbGluZUlkIjoxMDQsInBtZXJJZCI6MzUsInJvbGVUeXBlIjo5OSwidWlkIjoyLCJyZWFsTmFtZSI6ImFkbWluIiwiZGVhbFByaWNlVHlwZSI6MCwibWVyTm8iOiJwal82LjAiLCJzY29ycElkIjowLCJyb2xlTmFtZSI6Iui2hee6p-euoeeQhuWRmDU1NSIsImV4cCI6MTcwMDYzOTg0NCwiaWF0IjoxNzAwNTUzNDQ0LCJqdGkiOiJiMGUwNzI5Ni02ZmUyLTQzOGEtYTRjMC0wMWY0ZWJjYzFhOWEiLCJ1c2VybmFtZSI6ImFkbWluIn0.ueAm322td__YHh751LDQxS4PZ3gj7uZCcmEz9Ty0m3E', 'uid': '2', 'realName': 'admin', 'mobile': '', 'username': 'admin', 'scorpId': '0', 'corpId': '0', 'sysExtInfo': {'mallId': '9025', 'merNo': 'pj_6.0', 'pmerId': '35', 'cesPlineId': '104', 'mallPlineId': '100', 'merShelfId': '10005', 'dealPriceType': '0'}, 'systemInfo': {'systemName': 'pj_6.0', 'systemId': '908'}, 'roleInfo': {'id': '1', 'name': '超级管理员555', 'type': '99'}, 'hideCost': False}}
+[2023-11-21 15:57:25.285927] INFO: interface_case_run: 当前模块 断言测试结果
+[2023-11-21 15:57:25.285927] INFO: interface_case_run: 全部args参数参数信息 , ('code=0',)
+[2023-11-21 15:57:25.286952] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2023-11-21 15:57:25.287922] INFO: interface_case_run: 测试用例执行完毕

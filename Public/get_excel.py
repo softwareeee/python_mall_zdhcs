@@ -27,8 +27,8 @@ def datacel(filrpath):
 
 
 @logger('生成数据驱动所用数据')
-def makedata():
-    path = os.path.join(os.path.join(os.getcwd(), 'test_case_data'), 'case.xls')
+def makedata(casename):
+    path = os.path.join(os.path.join(os.getcwd(), 'test_case_data'), casename)
     make_data = []
     make_data=datacel(path)
     return make_data

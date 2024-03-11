@@ -1,0 +1,43 @@
+[2024-01-03 15:48:05.850161] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-03 15:48:05.851159] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2024-01-03 15:48:05.852158] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-03 15:48:05.853154] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-03 15:48:05.854151] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2024-01-03 15:48:05.854151] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-03 15:48:06.226678] INFO: interface_case_run: 获取登录接口token: Bearer eyJhbGciOiJIUzI1NiJ9.eyJtYWxsUGxpbmVJZCI6MTAwLCJtZXJTaGVsZklkIjoxMDAwNSwic3ViIjoiYWRtaW4iLCJzeXN0ZW1JZCI6OTA4LCJjb3JwSWQiOjAsInN5c1R5cGUiOjAsIm1nclN5c0lkIjowLCJpZGVudCI6InBqXzYuMCIsInJvbGVJZCI6MSwibWFsbElkIjo5MDI1LCJtb2JpbGUiOiIiLCJjZXNQbGluZUlkIjoxMDQsInBtZXJJZCI6MzUsInJvbGVUeXBlIjo5OSwidWlkIjoyLCJyZWFsTmFtZSI6ImFkbWluIiwiZGVhbFByaWNlVHlwZSI6MCwibWVyTm8iOiJwal82LjAiLCJzY29ycElkIjowLCJyb2xlTmFtZSI6Iui2hee6p-euoeeQhuWRmDU1NSIsImV4cCI6MTcwNDM1NDQ4NSwiaWF0IjoxNzA0MjY4MDg1LCJqdGkiOiIxZTRiYzAzNS1hMTFlLTQ4MTctYmQxNS02NGM5NDE4YmVmMmYiLCJ1c2VybmFtZSI6ImFkbWluIn0.4k19_ndxarPLpCoNGKPDFUxgQo8GoE7VNEkuq6WVVDA
+[2024-01-03 15:48:06.227675] INFO: interface_case_run: 测试用例开始执行
+[2024-01-03 15:48:06.227675] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2024-01-03 15:48:06.228673] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2024-01-03 15:48:06.298895] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-03 15:48:06.298895] INFO: interface_case_run: 测试用例开始执行
+[2024-01-03 15:48:06.299919] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2024-01-03 15:48:06.300890] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2024-01-03 15:48:06.350450] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-03 15:48:06.350450] INFO: interface_case_run: 测试用例开始执行
+[2024-01-03 15:48:06.352456] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2024-01-03 15:48:06.354452] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2024-01-03 15:48:06.421441] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-03 15:48:06.422468] INFO: interface_case_run: 测试用例开始执行
+[2024-01-03 15:48:06.422468] INFO: interface_case_run: {'username': 'admin', 'password': '1c63129ae9db9c60c3e8aa94d3e00495', 'vcode': '000000', 'ident': 'pj_6.0'}
+[2024-01-03 15:48:06.423464] INFO: interface_case_run: 输入参数：地址:http://mgr.fat.eqmall2.100bm.cn,url:/api/login/auth,key:,参数:{
+  "username": "admin",
+  "password": "1c63129ae9db9c60c3e8aa94d3e00495",
+  "vcode": "000000",
+  "ident": "pj_6.0"
+},期望:code=0,请求方式：POST
+[2024-01-03 15:48:06.476196] INFO: interface_case_run: 测试用例执行完毕

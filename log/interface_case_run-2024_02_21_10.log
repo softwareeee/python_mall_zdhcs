@@ -1,0 +1,12 @@
+[2024-02-21 10:55:16.930322] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-21 10:55:16.931319] INFO: interface_case_run: 全部args参数参数信息 , ('加入隐形购物车.xls',)
+[2024-02-21 10:55:16.931319] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 10:55:16.932317] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-21 10:55:16.932317] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\加入隐形购物车.xls',)
+[2024-02-21 10:55:16.933313] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 10:55:16.945282] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-21 10:55:16.946280] INFO: interface_case_run: 全部args参数参数信息 , ('生成临时订单号.xls',)
+[2024-02-21 10:55:16.946280] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-21 10:55:16.947277] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-21 10:55:16.948274] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\生成临时订单号.xls',)
+[2024-02-21 10:55:16.949272] INFO: interface_case_run: 全部kwargs参数信息 , {}

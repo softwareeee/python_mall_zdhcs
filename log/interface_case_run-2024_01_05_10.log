@@ -1,0 +1,12 @@
+[2024-01-05 10:53:25.346199] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-05 10:53:25.347196] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2024-01-05 10:53:25.347196] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-05 10:53:25.348222] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-05 10:53:25.348222] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2024-01-05 10:53:25.349219] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-05 10:53:25.358194] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-05 10:53:25.358194] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2024-01-05 10:53:25.359191] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-05 10:53:25.359191] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-05 10:53:25.360188] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\users.xlsx',)
+[2024-01-05 10:53:25.360188] INFO: interface_case_run: 全部kwargs参数信息 , {}

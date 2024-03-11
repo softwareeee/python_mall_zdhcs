@@ -1,0 +1,18 @@
+[2024-01-16 17:59:49.209007] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-16 17:59:49.209007] INFO: interface_case_run: 全部args参数参数信息 , ()
+[2024-01-16 17:59:49.210004] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-16 17:59:49.210004] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-16 17:59:49.211002] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2024-01-16 17:59:49.211002] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-16 17:59:49.721574] INFO: interface_case_run: 测试用例开始执行
+[2024-01-16 17:59:49.724566] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': '{\n  "skuId": "1149944",\n  "zoneTag": "",\n  "zoneId": 0,\n  "igrId": null,\n  "num": 1,\n  "buyInstantly": true,\n  "buyAgain": true,\n  "activityId": 0\n}', 'url': '/api/zoneShoppingCart/addToCart\n', 'name': '加入隐形购物车', 'method': 'post', 'assert': 126401.0}
+[2024-01-16 17:59:49.733561] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-16 17:59:49.736583] INFO: interface_case_run: 测试用例开始执行
+[2024-01-16 17:59:49.738568] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': '{\n  "skuId": "1149944",\n  "zoneTag": "",\n  "zoneId": 0,\n  "igrId": null,\n  "num": 1,\n  "buyInstantly": true,\n  "buyAgain": true,\n  "activityId": 0\n}', 'url': '/api/zoneShoppingCart/addToCart\n', 'name': '加入隐形购物车', 'method': 'post', 'assert': 126401.0}
+[2024-01-16 17:59:49.745510] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-16 17:59:49.747554] INFO: interface_case_run: 测试用例开始执行
+[2024-01-16 17:59:49.749512] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': '{\n  "skuId": "1149944",\n  "zoneTag": "",\n  "zoneId": 0,\n  "igrId": null,\n  "num": 1,\n  "buyInstantly": true,\n  "buyAgain": true,\n  "activityId": 0\n}', 'url': '/api/zoneShoppingCart/addToCart\n', 'name': '加入隐形购物车', 'method': 'post', 'assert': 126401.0}
+[2024-01-16 17:59:49.757517] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-16 17:59:49.759512] INFO: interface_case_run: 测试用例开始执行
+[2024-01-16 17:59:49.761508] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': '{\n  "skuId": "1149944",\n  "zoneTag": "",\n  "zoneId": 0,\n  "igrId": null,\n  "num": 1,\n  "buyInstantly": true,\n  "buyAgain": true,\n  "activityId": 0\n}', 'url': '/api/zoneShoppingCart/addToCart\n', 'name': '加入隐形购物车', 'method': 'post', 'assert': 126401.0}
+[2024-01-16 17:59:49.764487] INFO: interface_case_run: 测试用例执行完毕

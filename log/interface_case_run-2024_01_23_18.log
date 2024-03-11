@@ -1,0 +1,62 @@
+[2024-01-23 18:33:13.702730] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-01-23 18:33:13.702730] INFO: interface_case_run: 全部args参数参数信息 , ('case.xls',)
+[2024-01-23 18:33:13.703755] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-23 18:33:13.703755] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-01-23 18:33:13.704752] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\case.xls',)
+[2024-01-23 18:33:13.704752] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-01-23 18:33:14.107527] INFO: interface_case_run: 测试用例开始执行
+[2024-01-23 18:33:14.108526] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '1149944',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-23 18:33:14.109520] INFO: interface_case_run: {'skuId': '1149944', 'zoneTag': '', 'zoneId': 0, 'igrId': 'null', 'num': '1', 'buyInstantly': 'true', 'buyAgain': 'true', 'activityId': '0'}
+[2024-01-23 18:33:14.110518] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId': '1149944',
+  'zoneTag': '',
+  'zoneId': 0,
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:126401.0,请求方式：POST
+[2024-01-23 18:33:14.534993] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-23 18:33:14.535991] INFO: interface_case_run: 测试用例开始执行
+[2024-01-23 18:33:14.537984] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '1149944',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-23 18:33:14.538984] INFO: interface_case_run: {'skuId': '1149944', 'zoneTag': '', 'zoneId': 0, 'igrId': 'null', 'num': '1', 'buyInstantly': 'true', 'buyAgain': 'true', 'activityId': '0'}
+[2024-01-23 18:33:14.539979] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId': '1149944',
+  'zoneTag': '',
+  'zoneId': 0,
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:126401.0,请求方式：POST
+[2024-01-23 18:33:14.950019] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-23 18:33:14.951017] INFO: interface_case_run: 测试用例开始执行
+[2024-01-23 18:33:14.953044] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '1149944',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-23 18:33:14.954008] INFO: interface_case_run: {'skuId': '1149944', 'zoneTag': '', 'zoneId': 0, 'igrId': 'null', 'num': '1', 'buyInstantly': 'true', 'buyAgain': 'true', 'activityId': '0'}
+[2024-01-23 18:33:14.955034] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId': '1149944',
+  'zoneTag': '',
+  'zoneId': 0,
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:126401.0,请求方式：POST
+[2024-01-23 18:33:15.402133] INFO: interface_case_run: 测试用例执行完毕
+[2024-01-23 18:33:15.402133] INFO: interface_case_run: 测试用例开始执行
+[2024-01-23 18:33:15.403130] INFO: interface_case_run: 当前执行的用例 {'id': 1.0, 'key': '', 'coneent': "{\n  'skuId': '1149944',\n  'zoneTag': '',\n  'zoneId': 0,\n  'igrId': 'null',\n  'num': '1',\n  'buyInstantly': 'true',\n  'buyAgain': 'true',\n  'activityId': '0'\n}", 'url': '/api/zoneShoppingCart/addToCart', 'name': '加入隐形购物车', 'method': 'POST', 'assert': 126401.0}
+[2024-01-23 18:33:15.404128] INFO: interface_case_run: {'skuId': '1149944', 'zoneTag': '', 'zoneId': 0, 'igrId': 'null', 'num': '1', 'buyInstantly': 'true', 'buyAgain': 'true', 'activityId': '0'}
+[2024-01-23 18:33:15.405125] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId': '1149944',
+  'zoneTag': '',
+  'zoneId': 0,
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:126401.0,请求方式：POST
+[2024-01-23 18:33:15.827664] INFO: interface_case_run: 测试用例执行完毕

@@ -1,0 +1,52 @@
+[2024-02-26 18:38:18.117149] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-26 18:38:18.117149] INFO: interface_case_run: 全部args参数参数信息 , ('加入隐形购物车.xls',)
+[2024-02-26 18:38:18.118146] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.118146] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-26 18:38:18.119143] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\加入隐形购物车.xls',)
+[2024-02-26 18:38:18.119143] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.131117] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-26 18:38:18.132109] INFO: interface_case_run: 全部args参数参数信息 , ('生成临时订单号.xls',)
+[2024-02-26 18:38:18.132109] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.133134] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-26 18:38:18.133134] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\生成临时订单号.xls',)
+[2024-02-26 18:38:18.133134] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.137095] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-26 18:38:18.138117] INFO: interface_case_run: 全部args参数参数信息 , ('金额计算.xls',)
+[2024-02-26 18:38:18.138117] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.139093] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-26 18:38:18.139093] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\金额计算.xls',)
+[2024-02-26 18:38:18.140088] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.143103] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-26 18:38:18.143103] INFO: interface_case_run: 全部args参数参数信息 , ('下单.xls',)
+[2024-02-26 18:38:18.144077] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.145075] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-26 18:38:18.145075] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\下单.xls',)
+[2024-02-26 18:38:18.146095] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.149063] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-26 18:38:18.150060] INFO: interface_case_run: 全部args参数参数信息 , ('输入支付密码.xls',)
+[2024-02-26 18:38:18.150060] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.151058] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-26 18:38:18.151058] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\输入支付密码.xls',)
+[2024-02-26 18:38:18.151058] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.154050] INFO: interface_case_run: 当前模块 生成数据驱动所用数据
+[2024-02-26 18:38:18.155048] INFO: interface_case_run: 全部args参数参数信息 , ('支付.xls',)
+[2024-02-26 18:38:18.155048] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.156044] INFO: interface_case_run: 当前模块 解析测试用例文件
+[2024-02-26 18:38:18.156044] INFO: interface_case_run: 全部args参数参数信息 , ('G:\\python项目\\python_zdhkj\\test_case_data\\支付.xls',)
+[2024-02-26 18:38:18.157059] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:18.940024] INFO: interface_case_run: 测试用例开始执行
+[2024-02-26 18:38:18.941023] INFO: interface_case_run: 输入参数：地址:https://mall-fat-eqmall2.100bm.cn,url:/api/zoneShoppingCart/addToCart,key:,参数:{
+  'skuId':'1149945',
+  'zoneTag': '',
+  'zoneId': '0',
+  'igrId': 'null',
+  'num': '1',
+  'buyInstantly': 'true',
+  'buyAgain': 'true',
+  'activityId': '0'
+},期望:expected_status_code = 200,请求方式：POST,headers:{'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1MjU5IiwibWVyX25vIjoicGpfNC4wIiwidXNlcl9uYW1lIjoi5r2Y6I-KIiwibWFsbF90YWciOiJwal80LjAiLCJleHRfaWRfMSI6IjEzNzk1OTk3NjkxIiwibWFwcF9pZCI6MTA5MDAsInVpZCI6NTI1OSwiZmlyc3RfbG9naW5fbWFsbCI6ZmFsc2UsIm1hbGxfaWQiOjkwMDQsInN0YXRlIjoiVVNFUiIsImV4cCI6MTcxMTUzNTg5OSwiYXBwX2lkIjoicGpfNC4wIiwiaWF0IjoxNzA4OTQzODk5LCJhY2NfaWQiOjYzOTR9.UX_zLuwfcCvwDgonJh8MDYRAZJoR_xPqj62HBjrAk9PGlGxUqNfEnkgvkt2udnklxdsaM5cNb5aWrmBK1fDlkQ'}
+[2024-02-26 18:38:19.409826] INFO: interface_case_run: 返回结果:{'code': 0, 'result': 127967}
+[2024-02-26 18:38:19.412818] INFO: interface_case_run: 当前模块 断言测试结果
+[2024-02-26 18:38:19.415848] INFO: interface_case_run: 全部args参数参数信息 , ('expected_status_code = 200',)
+[2024-02-26 18:38:19.417835] INFO: interface_case_run: 全部kwargs参数信息 , {}
+[2024-02-26 18:38:19.876944] INFO: interface_case_run: 测试用例执行完毕
